@@ -1,0 +1,26 @@
+#carre {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 300px;
+    animation: rotateIt 0.01s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: 10s;
+
+}
+
+#carre:hover {
+    width: 400px;
+    background-color: blue;
+}
+
+@keyframes rotateIt {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
