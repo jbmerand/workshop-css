@@ -19,11 +19,13 @@ body {
     font-size: 2rem;
 }
 
+/* titres */
 h1 {
     color: white;
     text-align: center;
 }
 
+/* listes */
 ul {
     text-align: center;
     list-style: none;
@@ -37,6 +39,8 @@ li {
     margin-top: 10px;
 }
 
+
+/* formulaire */
 input {
     padding: 5px;
 }
